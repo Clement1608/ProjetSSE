@@ -1,0 +1,4 @@
+﻿"Poste";"AdresseIP";"Accessibilite";"Windows";"DernierDemarrage";"WindowsUpdate";"KBRequises";"KBManquantes";"ListeKBManquantes";"Conformite";"DateControle";"Erreur"
+"SpeedLight_Clem";"192.168.200.1";"Accessible";"Microsoft Windows 11 Famille";"25/10/2026";"Stopped";"2";"0";"";"CONFORME";"26/10/2026 21:09:30";
+"DESKTOP-SFJI7AH";"192.168.200.152";"Accessible";"Microsoft Windows 10 Entreprise LTSC";"26/10/2026";"Running";"2";"2";"KB5127648, KB5127647";"NON CONFORME";"26/10/2026 21:09:33";
+"PC99";"192.168.10.13";"Inaccessible";"";"";"";"2";"";"";"INACCESSIBLE";"26/10/2026 21:09:44";"Hôte injoignable"

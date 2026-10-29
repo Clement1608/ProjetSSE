@@ -1,0 +1,13 @@
+﻿Objet : [PATCH MANAGEMENT] Anomalies détectées
+
+Date du contrôle : 26/10/2026
+
+Postes contrôlés      : 3
+Postes non conformes  : 1
+Postes inaccessibles  : 1
+
+DESKTOP-SFJI7AH : NON CONFORME
+       KB5127648 manquante
+       KB5127647 manquante
+
+PC99 : INACCESSIBLE

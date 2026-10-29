@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rapport de sécurité Patch Management</title>
+<style>
+  body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; padding: 2rem; background: #f4f5f7; color: #1d2330; }
+  h1 { margin: 0 0 .25rem; font-size: 1.6rem; }
+  h2 { margin: 2rem 0 .75rem; font-size: 1.15rem; border-bottom: 2px solid #1d2330; padding-bottom: .3rem; }
+  .meta { color: #5b6475; margin: 0; }
+  .cards { display: flex; flex-wrap: wrap; gap: .75rem; }
+  .card { background: #fff; border: 1px solid #d9dde5; border-radius: 6px; padding: .8rem 1.1rem; min-width: 8.5rem; }
+  .num { font-size: 1.6rem; font-weight: 700; }
+  .lbl { color: #5b6475; font-size: .85rem; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; background: #fff; font-size: .9rem; }
+  th, td { border: 1px solid #d9dde5; padding: .45rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #1d2330; color: #fff; white-space: nowrap; }
+  .badge { display: inline-block; padding: .1rem .5rem; border-radius: 3px; font-weight: 700; font-size: .8rem; white-space: nowrap; }
+  .ok { background: #d9f2e1; color: #17602f; }
+  .ko { background: #fbdcdc; color: #8f1d1d; }
+  .na { background: #e3e6ec; color: #3f4756; }
+  .allgood { background: #d9f2e1; color: #17602f; padding: .8rem 1rem; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>Rapport de sécurité Patch Management</h1>
+<p class="meta">Généré le 26/10/2026 21:09:44 depuis SPEEDLIGHT_CLEM</p>
+
+<h2>Synthèse globale du parc</h2>
+<div class="cards">
+<div class="card"><div class="num">3</div><div class="lbl">Postes</div></div>
+<div class="card"><div class="num">2</div><div class="lbl">Accessibles</div></div>
+<div class="card"><div class="num">1</div><div class="lbl">Inaccessibles</div></div>
+<div class="card"><div class="num">1</div><div class="lbl">Conformes</div></div>
+<div class="card"><div class="num">1</div><div class="lbl">Non conformes</div></div>
+<div class="card"><div class="num">2</div><div class="lbl">Correctifs manquants</div></div>
+<div class="card"><div class="num">50 %</div><div class="lbl">Taux de conformit&#233;</div></div>
+</div>
+
+<h2>Postes nécessitant une intervention</h2>
+<div class="scroll"><table><thead><tr><th>Poste</th><th>Adresse IP</th><th>État</th><th>Action attendue</th></tr></thead><tbody><tr><td>DESKTOP-SFJI7AH</td><td>192.168.200.152</td><td><span class="badge ko">NON CONFORME</span></td><td>Installer : KB5127648, KB5127647</td></tr>
+<tr><td>PC99</td><td>192.168.10.13</td><td><span class="badge na">INACCESSIBLE</span></td><td>V&#233;rifier l&#39;alimentation, le r&#233;seau et WinRM. H&#244;te injoignable</td></tr></tbody></table></div>
+
+<h2>Détail par poste</h2>
+<div class="scroll"><table>
+<thead><tr><th>Poste</th><th>Adresse IP</th><th>Accessibilité</th><th>Windows</th><th>Dernier démarrage</th><th>Windows Update</th><th>KB requises</th><th>KB manquantes</th><th>Liste des KB manquantes</th><th>Conformité</th><th>Date du contrôle</th></tr></thead>
+<tbody>
+<tr><td>SpeedLight_Clem</td><td>192.168.200.1</td><td>Accessible</td><td>Microsoft Windows 11 Famille</td><td>25/10/2026</td><td>Stopped</td><td>2</td><td>0</td><td></td><td><span class="badge ok">CONFORME</span></td><td>26/10/2026 21:09:30</td></tr>
+<tr><td>DESKTOP-SFJI7AH</td><td>192.168.200.152</td><td>Accessible</td><td>Microsoft Windows 10 Entreprise LTSC</td><td>26/10/2026</td><td>Running</td><td>2</td><td>2</td><td>KB5127648, KB5127647</td><td><span class="badge ko">NON CONFORME</span></td><td>26/10/2026 21:09:33</td></tr>
+<tr><td>PC99</td><td>192.168.10.13</td><td>Inaccessible</td><td></td><td></td><td></td><td>2</td><td></td><td></td><td><span class="badge na">INACCESSIBLE</span></td><td>26/10/2026 21:09:44</td></tr>
+</tbody>
+</table></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿"Poste";"AdresseIP";"Etat";"NomPoste";"Modele";"VersionBios";"Windows";"VersionWindows";"Architecture";"DernierDemarrage";"RAMGo";"DisqueLibreGo";"DerniereMaj";"NbMaj";"WindowsUpdate";"Erreur"
+"SpeedLight_Clem";"192.168.200.1";"Accessible";"SPEEDLIGHT_CLEM";"Acer Nitro AN517-55";"V2.21";"Microsoft Windows 11 Famille";"10.0.26200";"64 bits";"25/10/2026";"15,7";"9,2";"16/10/2026";"4";"Stopped";
+"DESKTOP-SFJI7AH";"192.168.200.152";"Accessible";"DESKTOP-SFJI7AH";"VMware, Inc. VMware20,1";"VMW201.00V.24006586.B64.2406042154";"Microsoft Windows 10 Entreprise LTSC";"10.0.19044";"64 bits";"26/10/2026";"2";"35,1";"26/10/2026";"10";"Running";
+"PC99";"192.168.10.13";"Inaccessible";"";"";"";"";"";"";"";"";"";"";"";"";"Hôte injoignable"
