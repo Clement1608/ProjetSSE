@@ -1,15 +1,5 @@
 ﻿#Requires -RunAsAdministrator
-<#
-    À exécuter EN ADMINISTRATEUR sur CHAQUE poste supervisé (Partie 1, point 4).
-    - passe le réseau en profil Privé (Enable-PSRemoting échoue sur un profil Public)
-    - active PowerShell Remoting / WinRM
-    - autorise le ping (ICMPv4)
-    - (option) limite WinRM à l'adresse du poste d'administration        -> Partie 8
-    - (option) crée un compte de service NON administrateur pour l'audit -> Partie 8
-
-    Usage : .\Setup-Cible.ps1
-            .\Setup-Cible.ps1 -AdminIP 192.168.10.10 -CreateServiceAccount
-#>
+#Premier correctif sur les profils privés du parc
 [CmdletBinding()]
 param(
     [string]$AdminIP,
