@@ -1,12 +1,5 @@
 ﻿#Requires -RunAsAdministrator
-<#
-    À exécuter EN ADMINISTRATEUR sur le poste d'administration (Partie 1, point 4).
-    Hors domaine (groupe de travail), le client WinRM refuse de s'authentifier auprès d'une machine
-    inconnue : on déclare donc les IP de computers.txt comme hôtes de confiance (TrustedHosts),
-    et uniquement celles-là (jamais "*").
-
-    Usage : .\Setup-Admin.ps1
-#>
+#Permet de déclarer les hôtes de cobfiance et récupérer le statut WinrRM pour vérifier la connexion à distance
 [CmdletBinding()]
 param([string]$ComputersFile = (Join-Path (Split-Path $PSScriptRoot) 'computers.txt'))
 
